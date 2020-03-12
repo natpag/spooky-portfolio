@@ -19,6 +19,11 @@ li {
   padding: .5rem;
 }
 
+.mobileheader h2 {
+  color: #D7D7D7;
+  padding: 1rem;
+}
+
 .topheader {
   display: flex;
   justify-content: space-evenly;
@@ -99,4 +104,14 @@ button {
   margin-bottom: 6rem;
 }
 
-@media (min-width: 768px) {}
+@media (max-width: 767px) {
+  .topheader {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobileheader {
+    display: none;
+  }
+}
