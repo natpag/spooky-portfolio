@@ -16,6 +16,7 @@ body {
 
 li {
   list-style: none;
+  padding: .5rem;
 }
 
 h2 {
@@ -40,6 +41,18 @@ h2 {
 
 ul.topnav {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   color: #7A7A7A;
+  flex-wrap: wrap;
+  font-weight: bolder;
+  margin-bottom: 5rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul.images {
+  padding: .5rem;
 }
