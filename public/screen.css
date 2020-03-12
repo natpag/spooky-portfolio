@@ -39,7 +39,7 @@ h2 {
   color: #FD5C5B;
 }
 
-ul.topnav {
+.topnav {
   display: flex;
   justify-content: space-evenly;
   color: #7A7A7A;
@@ -53,6 +53,31 @@ img {
   height: auto;
 }
 
-ul.images {
+.images {
   padding: .5rem;
+}
+
+.bottom {
+  color: #D7D7D7;
+  font-size: 3rem;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 20px 35px;
+  font-size: 16px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
 }
