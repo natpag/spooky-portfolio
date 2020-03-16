@@ -43,7 +43,7 @@ li {
   justify-content: space-between;
   color: rgb(0, 196, 226);
   padding: 0;
-  width: 40%
+  font-weight: bold;
 }
 
 .blurb {
@@ -96,6 +96,7 @@ button {
   color: white;
   padding: 20px 35px;
   font-size: 16px;
+  width: 25%;
 }
 
 .button {
@@ -104,14 +105,22 @@ button {
   margin-bottom: 6rem;
 }
 
-@media (max-width: 767px) {
-  .topheader {
+@media (min-width: 768px) {
+  .mobileheader {
     display: none;
+  }
+  .blurb {
+    color: #D7D7D7;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 }
 
-@media (min-width: 768px) {
-  .mobileheader {
+@media (max-width: 767px) {
+  .topheader {
     display: none;
   }
 }
