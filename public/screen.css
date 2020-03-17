@@ -28,18 +28,40 @@ li {
 .topheader {
   display: flex;
   justify-content: space-evenly;
-  text-align: center;
   padding-top: 1rem;
+  text-align: center;
 }
 
 .topheader h2 {
   color: #d7d7d7;
   width: 15%;
   text-align: left;
-  margin-bottom: 0;
+  margin-bottom: 0;,
 }
 
 .topheader ul {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(0, 196, 226);
+  padding: 0;
+  font-weight: bold;
+}
+
+.desktopHeader {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.desktopHeader h2 {
+  color: #d7d7d7;
+  width: 15%;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.desktopHeader ul {
   display: flex;
   justify-content: space-between;
   color: rgb(0, 196, 226);
@@ -63,12 +85,14 @@ li {
 }
 
 .topnav {
+  font-size: 12px;
   display: flex;
   justify-content: space-evenly;
   color: #7a7a7a;
   flex-wrap: wrap;
   font-weight: bolder;
   margin-bottom: 5rem;
+  padding: 1rem;
 }
 
 img {
@@ -112,12 +136,18 @@ button {
   .topheader {
     display: none;
   }
+  .desktopHeader {
+    display: none;
+  }
 }
 
 /*Tablet View*/
 
 @media (min-width: 768px) {
   .mobileheader {
+    display: none;
+  }
+  .desktopHeader {
     display: none;
   }
   .blurb {
@@ -129,6 +159,16 @@ button {
     margin-bottom: 8rem;
     width: 73%;
     padding-left: 7rem;
+  }
+  .topnav {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #7a7a7a;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    margin-bottom: 5rem;
+    padding: 1rem;
   }
   /*For all images inside an li:*/
   li img {
@@ -151,5 +191,14 @@ button {
     justify-content: center;
     margin-bottom: 4rem;
     margin-top: 4rem;
+  }
+}
+
+@media (min-width: 1023px) {
+  .mobileheader {
+    display: none;
+  }
+  .topheader {
+    display: none;
   }
 }
