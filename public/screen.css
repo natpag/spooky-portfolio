@@ -130,16 +130,28 @@ button {
     width: 73%;
     padding-left: 7rem;
   }
-  li {
-    list-style: none;
-    padding: 0;
+  /*For all images inside an li:*/
+  li img {
+    width: 350px;
+    height: 300px;
+    /*Use object-fit cover to control how the image is shown. try other options to see what you like*/
+    object-fit: cover;
+    /*A little margin below to separate rows*/
+    margin-bottom: 2rem;
   }
-  .img {
-    width: 100%;
-    height: 6rem;
-  }
+
   .images {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .bottom {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
   }
 }
