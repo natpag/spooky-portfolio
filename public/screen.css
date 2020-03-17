@@ -132,8 +132,8 @@ button {
   }
   /*For all images inside an li:*/
   li img {
-    width: 350px;
-    height: 300px;
+    width: 23rem;
+    height: 20rem;
     /*Use object-fit cover to control how the image is shown. try other options to see what you like*/
     object-fit: cover;
     /*A little margin below to separate rows*/
