@@ -136,8 +136,6 @@ button {
     height: 20rem;
     /*Use object-fit cover to control how the image is shown. try other options to see what you like*/
     object-fit: cover;
-    /*A little margin below to separate rows*/
-    margin-bottom: 2rem;
   }
 
   .images {
