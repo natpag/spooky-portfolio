@@ -17,11 +17,11 @@ body {
 
 li {
   list-style: none;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .mobileheader h2 {
-  color: #D7D7D7;
+  color: #d7d7d7;
   padding: 1rem;
 }
 
@@ -33,7 +33,7 @@ li {
 }
 
 .topheader h2 {
-  color: #D7D7D7;
+  color: #d7d7d7;
   width: 15%;
   text-align: left;
   margin-bottom: 0;
@@ -48,7 +48,7 @@ li {
 }
 
 .blurb {
-  color: #D7D7D7;
+  color: #d7d7d7;
   font-size: 2.5rem;
   width: 100%;
   padding: 0;
@@ -59,13 +59,13 @@ li {
 }
 
 .red {
-  color: #FD5C5B;
+  color: #fd5c5b;
 }
 
 .topnav {
   display: flex;
   justify-content: space-evenly;
-  color: #7A7A7A;
+  color: #7a7a7a;
   flex-wrap: wrap;
   font-weight: bolder;
   margin-bottom: 5rem;
@@ -77,11 +77,11 @@ img {
 }
 
 .images {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .bottom {
-  color: #D7D7D7;
+  color: #d7d7d7;
   font-size: 2.5rem;
   width: 100%;
   padding: 0;
@@ -121,14 +121,18 @@ button {
     display: none;
   }
   .blurb {
-    color: #D7D7D7;
+    color: #d7d7d7;
     font-size: 3rem;
     text-align: center;
     align-items: center;
     margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
     width: 73%;
     padding-left: 7rem;
+  }
+  li {
+    list-style: none;
+    padding: 0;
   }
   .img {
     width: 100%;
