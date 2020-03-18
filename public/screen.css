@@ -119,15 +119,19 @@ button {
   background-color: black;
   border: none;
   color: white;
-  padding: 20px 35px;
+  padding: 15px 25px;
   font-size: 16px;
-  width: 25%;
+  width: 35%;
 }
 
 .button {
   display: flex;
   justify-content: center;
   margin-bottom: 6rem;
+}
+
+.computerImages {
+  display:none
 }
 
 /*Mobile View*/
@@ -170,6 +174,9 @@ button {
     margin-bottom: 5rem;
     padding: 1rem;
   }
+  .computerImages {
+    display:none
+  }
   /*For all images inside an li:*/
   li img {
     width: 23rem;
@@ -192,13 +199,85 @@ button {
     margin-bottom: 4rem;
     margin-top: 4rem;
   }
+
+  button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    width: 25%;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+  }
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   .mobileheader {
     display: none;
   }
   .topheader {
     display: none;
+  }
+  .desktopHeader {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  
+  .desktopHeader h2 {
+    color: #d7d7d7;
+    width: 25%;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  
+  .desktopHeader ul {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 196, 226);
+    padding-right: 8rem;
+    font-weight: bold;
+    width: 30%;
+  }
+  button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    width: 15%;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+  }
+
+  .mobileImages {
+    display:none
+  }
+
+  li img {
+    width: 23rem;
+    height: 20rem;
+    /*Use object-fit cover to control how the image is shown. try other options to see what you like*/
+    object-fit: cover;
+  }
+
+  .computerImages {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+
+  .topImages {
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
 }
