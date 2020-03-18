@@ -100,7 +100,7 @@ img {
   height: auto;
 }
 
-.images {
+.mobileImages {
   padding: 0.5rem;
 }
 
@@ -230,6 +230,7 @@ button {
     padding-top: 1rem;
   }
   
+
   .desktopHeader h2 {
     color: #d7d7d7;
     width: 25%;
@@ -245,6 +246,19 @@ button {
     font-weight: bold;
     width: 30%;
   }
+
+  .topnav {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #7a7a7a;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    width:70%;
+  }
+
   button {
     background-color: black;
     border: none;
